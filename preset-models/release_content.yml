@@ -85,3 +85,10 @@ model_5:
     - 版本：lienol openwrt源码，master分支
     - 登陆IP 192.168.31.1，密码无
     - 应用：ipv6支持组件、argon主题、定时重启、adbyby-plus、adguardhome、ddns、smartdns、turboacc等。
+model_6:
+  title: openwrt for x86
+  body:
+    - x86 OpenWrt固件
+    - 版本：lean openwrt源码，master分支
+    - 登陆IP 192.168.2.1，密码无
+    - 应用：ipv6支持组件、定时重启、ssr plus、ddns、smartdns、turboacc等。
