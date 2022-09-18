@@ -88,7 +88,7 @@ jobs:
           NUMBER=$(python3 $TARGET_SE ${{ github.event.inputs.model }})
           echo "你选择了：${{ github.event.inputs.model }}"
           RELEASE_TITLE=$(yq ".model_${NUMBER}.title" $RELEASE_CO)
-          echo "${{ RELEASE_TITLE }}"
+          echo "$RELEASE_TITLE"
           RELEASE_BODY=$(yq ".model_${NUMBER}.body[]" $RELEASE_CO); RELEASE_BODY="${RELEASE_BODY//$'\n'/'%0A'}"; RELEASE_BODY="${RELEASE_BODY//$'\r'/'%0D'}"
           echo "::set-output name=RELEASE_TITLE::$RELEASE_TITLE"
           echo "::set-output name=RELEASE_BODY::$RELEASE_BODY"
