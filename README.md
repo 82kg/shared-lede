@@ -139,6 +139,7 @@ Actions流程顺利完成后，去release(或者artifact)下载你的固件，re
 |红米AC2100<br/>小米AC2100|3.config、3clone.sh、3modify.sh|
 |斐讯K2P|4.config、4clone.sh、4modify.sh|
 |红米AX6S|5.config、5clone.sh、5modify.sh|
+|x86_64|6.config、6clone.sh、6modify.sh|
 
 ## 提示
 
