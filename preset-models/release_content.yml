@@ -91,4 +91,4 @@ model_6:
     - x86 OpenWrt固件
     - 版本：lean openwrt源码，master分支
     - 登陆IP 192.168.2.1，用户名root 密码password
-    - 应用：ssr+、上网时间控制、watchcat、frpc、网络唤醒、ddns、upnp、udproxy、Tinyproxy、turboacc。
+    - 应用：ssr+、上网时间控制、watchcat、frpc、网络唤醒、ddns、upnp、udproxy、Tinyproxy、turboacc、zetiro。
