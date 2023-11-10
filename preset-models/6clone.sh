@@ -3,7 +3,7 @@
 git clone https://github.com/coolsnowwolf/lede.git
 mv ./lede/* ./
 
-git clone --depth=1 https://github.com/fw876/helloworld.git package/helloworld
+git clone --depth=1 -b main https://github.com/fw876/helloworld.git package/helloworld
 
 # 下载自定义插件
 #rm -rf package/lean/luci-theme-argon
