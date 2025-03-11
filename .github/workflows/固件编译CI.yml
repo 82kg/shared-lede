@@ -85,7 +85,7 @@ jobs:
           large-packages: true
           swap-storage: true
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: 环境准备
         run: |
           #sudo rm -rf /usr/share/dotnet /etc/mysql /etc/apt/sources.list.d /usr/local/lib/android /opt/ghc
@@ -172,7 +172,7 @@ jobs:
           RELEASE_FIRMWARE_VALUE: ${{ secrets.RELEASE_FIRMWARE }}
       - name: 上传固件到artifact
         if: github.event.inputs.artifact == 'true' || steps.upload-release.conclusion == 'skipped'
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: collected_firmware
           path: |
